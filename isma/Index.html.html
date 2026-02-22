@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFC Clan</title>
+<style>
+    body {
+        background-color:black; 
+        color: white; 
+    }
+    body h1 {
+        text-align: center;
+        font-size: 2rem; /* deutlich größer als normaler Text */
+        font-weight: bold; /* kann stärker wirken */
+    }   
+    body h2 {
+        text-align: center;
+        font-size: 1.25rem; /* gleiche Größe wie Text 1 */
+        font-weight: normal;
+    }
+    body p {
+        text-align: center;
+        font-size: 1.25rem; 
+    }
+
+    
+    .images {
+        display: flex;
+        justify-content: space-between; /* nebeneinander mit Abstand */
+        align-items: flex-start; /* gleiche obere Kante */
+        max-width: 1000px; /* optional: maximale Breite */
+        margin: 0 auto; /* zentriert den Container */
+    }
+
+    .images img {
+        max-width: 30%; /* allgemeine Begrenzung: kleinere Bilder */
+        height: auto;
+    }
+
+    /* optional: wenn du unterschiedlich steuern willst, kannst du weiter spezifizieren */
+    .images img:first-child {
+        /* keine spezielle Obergrenze mehr nötig */
+    }
+
+    /* captions unter Bildern zentrieren */
+    .images figure {
+        text-align: center;
+        margin: 0 1rem;
+    }
+    .images figcaption {
+        color: #ccc;
+        font-size: 1.5rem; /* größer, damit Texte unter den Bildern gut lesbar sind */
+        margin-top: 0.5rem;
+    }
+
+    /* speziell für den ersten Abschnitt unter Bild 1 */
+    .images figure:first-child figcaption,
+    .images figure:first-child ul {
+        font-size: 1.75rem; /* noch größere Schrift für das erste Bild */
+    }
+</style>
+</head>
+<body>
+    <h1>FFC Clan – Unser Gaming-Clan</h1>
+    <p>Willkommen in unserem Clan!</p>
+    <h2> Über uns</h2>
+    <p> Ich bin Ismael. ich bin der Leader des FFC Clans.
+        Ich bin ein fetter Bastard der es liebt schwänze zu reiten - <fett><mark> am liebsten BBC.</fett></p></p>
+   <h2> So sehe ich aus</h2>
+   <div class="images">
+       <figure>
+           <img src="Isma.1.JPEG" alt="Ismael - Foto 1">
+           <figcaption></figcaption>
+           <ul>
+            <li> Ich liebe Nutella  </li>
+            <li> Ich will einen <fett><mark>BBC</fett></mark></li>
+            <li>Ich bin ein Hund der für Geld gibt ;)</li>
+           </ul>
+       </figure>
+       <figure>
+           <img src="Isma.2.JPEG" alt="Ismael - Foto 2">
+           <figcaption>
+            <ul>
+                <li> Ich bin ein Hurensohn</li>
+                <li> Ich bin ein fetter Bastard</li>
+                <li> Ich liebe es schwänze zu reiten</li>
+                <li> Ich bin breiter als jeder und ich sehe besser aus als Marlon</li>
+                </li>
+            </ul>
+           </figcaption>
+       </figure>
+   </div>
+
+    <footer style="text-align:center; margin-top:2rem; font-size:0.9rem; color:#888;">
+        <p>Impressum: Ismail Ucar
+            <br> Tiktok:@ismail.ucr09
+
+        </p>
+    </footer>
+</body>
+</html>
